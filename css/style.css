@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "OpenSans";
 	src: local("OpenSans-Regular"),
-		url(/fonts/OpenSans-Regular.woff2), url(/fonts/OpenSans-Regular.woff2), url(/fonts/OpenSans-Regular.ttf);
+		url(./fonts/OpenSans-Regular.woff2), url(./fonts/OpenSans-Regular.woff2), url(./fonts/OpenSans-Regular.ttf);
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -10,7 +10,7 @@
 @font-face {
 	font-family: "OpenSans";
 	src: local("OpenSans-Bold"),
-		url(/fonts/OpenSans-Bold.woff), url(/fonts/OpenSans-Bold.woff2), url(/fonts/OpenSans-Bold.ttf);
+		url(./fonts/OpenSans-Bold.woff), url(./fonts/OpenSans-Bold.woff2), url(./fonts/OpenSans-Bold.ttf);
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
@@ -72,7 +72,7 @@ textarea {
 	padding-bottom: 146px;
 
 	position: relative;
-	background-image: url(./images/banner-bg.jpg);
+	background-image: url(../images/banner-bg.jpg);
 	background-repeat: no-repeat;
 	background-color: #0a101e;
 	background-size: cover;
