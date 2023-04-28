@@ -72,7 +72,7 @@ textarea {
 	padding-bottom: 146px;
 
 	position: relative;
-	background-image: url(/images/banner-bg.jpg);
+	background-image: url(images/banner-bg.jpg);
 	background-repeat: no-repeat;
 	background-color: #0a101e;
 	background-size: cover;
@@ -223,19 +223,19 @@ textarea {
 }
 
 .trend_card:nth-child(1) {
-	background-image: url(/images/trend1.jpg);
+	background-image: url(images/trend1.jpg);
 }
 
 .trend_card:nth-child(2) {
-	background-image: url(/images/trend2.jpg);
+	background-image: url(images/trend2.jpg);
 }
 
 .trend_card:nth-child(3) {
-	background-image: url(/images/trend3.jpg);
+	background-image: url(images/trend3.jpg);
 }
 
 .trend_card:nth-child(4) {
-	background-image: url(/images/trend4.jpg);
+	background-image: url(images/trend4.jpg);
 }
 
 .trend_card__wrapper {
@@ -566,7 +566,7 @@ textarea {
 	width: 48px;
 	height: 48px;
 	border: none;
-	background-image: url(/svg/search.svg);
+	background-image: url(svg/search.svg);
 	background-color: #b59f5b;
 	background-size: 18px;
 	background-repeat: no-repeat;
@@ -997,7 +997,7 @@ textarea {
 
 	cursor: pointer;
 
-	background-image: url(/svg/form-arrows.svg);
+	background-image: url(svg/form-arrows.svg);
 	background-position: right 13px center;
 	background-repeat: no-repeat;
 	background-size: 9px 17px;
@@ -1046,7 +1046,7 @@ textarea {
 	display: inline-block;
 	width: 18px;
 	height: 18px;
-	background-image: url(/svg/form-empty-circle.svg);
+	background-image: url(svg/form-empty-circle.svg);
 	background-position: center;
 	background-size: 18px 18px;
 	background-repeat: no-repeat;
@@ -1054,7 +1054,7 @@ textarea {
 }
 
 .radio__input:checked+.label__radio::before {
-	background-image: url(/svg/form-circle.svg);
+	background-image: url(svg/form-circle.svg);
 }
 
 .popup__field {
@@ -1101,7 +1101,7 @@ textarea {
 
 @media (min-width: 641px) and (max-width: 1200px) {
 	.header {
-		background-image: url(/images/banner-bg-tablet.jpg);
+		background-image: url(images/banner-bg-tablet.jpg);
 	}
 
 	.header__top {
@@ -1241,7 +1241,7 @@ textarea {
 	}
 
 	.header {
-		background-image: url(/images/banner-mobile.jpg);
+		background-image: url(images/banner-mobile.jpg);
 		height: 83.3%;
 		display: flex;
 		flex-direction: column;
