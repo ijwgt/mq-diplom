@@ -317,7 +317,8 @@ img {
 
 .card__img {
 	margin-right: 30px;
-
+	flex-shrink: 0;
+	
 	max-width: 381px;
 }
 
