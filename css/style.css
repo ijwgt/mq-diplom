@@ -498,7 +498,7 @@ img {
 
 .search {
 	display: flex;
-	margin-top: 28px;
+	margin-top: 38px;
 	margin-bottom: 62px;
 	height: 48px;
 }
@@ -606,7 +606,7 @@ img {
 }
 
 .mail {
-	margin-top: 40px;
+	margin-top: 22px;
 }
 
 .mail__field {
@@ -742,10 +742,6 @@ img {
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #0f0d0e;
-}
-
-.themes__list {
-	margin-top: 46px;
 }
 
 .themes-list__item {
@@ -1202,8 +1198,13 @@ img {
 		margin-top: 20px;
 	}
 
+	.card:nth-last-child(1)::after {
+		content: none;
+	}
+
 	.card__img {
 		margin-right: 0;
+		max-width: 100%;
 	}
 
 	.card__img img {
@@ -1217,6 +1218,8 @@ img {
 	.shop {
 		padding-left: 35px;
 		padding-right: 35px;
+
+		margin-top: 70px;
 	}
 
 	.shop__cards {
@@ -1337,18 +1340,29 @@ img {
 
 	.container {
 		display: block;
+		margin-top: 45px;
 	}
 
 	.main {
 		margin-right: 0;
 	}
 
-	.card__desc {
-		margin-top: 15px;
-	}
-
 	.card {
 		flex-direction: column;
+		margin-top: 35px;
+	}
+
+	.card__img {
+		margin-right: 0;
+		max-width: 100%;
+	}
+
+	.card__img img {
+		width: 100%;
+	}
+
+	.card__desc {
+		margin-top: 15px;
 	}
 
 	.card::after {
@@ -1360,12 +1374,16 @@ img {
 		margin-top: 20px;
 	}
 
-	.card__img {
-		margin-right: 0;
+	.card:nth-last-child(1)::after {
+		content: none;
 	}
 
-	.card__img img {
-		width: 100%;
+	.card__list {
+		margin-bottom: 8px;
+	}
+
+	.card__heading {
+		margin-bottom: 20px;
 	}
 
 	.card__text {
@@ -1380,12 +1398,16 @@ img {
 		width: 100%;
 	}
 
+	.search {
+		margin-bottom: 45px;
+	}
+
 	.search-group {
 		width: 100%;
 	}
 
 	.sidebar__title {
-		margin: 44px 0px 22px 0px;
+		margin: 44px 0px 25px 0px;
 	}
 
 	.trends__cards {
@@ -1420,6 +1442,9 @@ img {
 		align-items: center;
 	}
 
+	.socials {
+		margin-bottom: 50px;
+	}
 	.popup__body {
 		width: 91.7%;
 		padding: 25px 20px;
