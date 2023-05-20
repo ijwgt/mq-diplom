@@ -320,10 +320,18 @@ img {
 	flex-shrink: 0;
 	
 	max-width: 381px;
+	min-width: 381px;
 }
 
 .card__img img {
 	width: 100%;
+}
+
+.card__img img::after {
+	content: '';
+	display: block;
+	min-width: 381px;
+	height: 294px;
 }
 
 .card__desc {
@@ -821,6 +829,14 @@ img {
 	width: 100%;
 }
 
+.shop_img::after {
+	content: '';
+	display: block;
+	min-width: 300px;
+	min-height: 204px;
+}
+
+
 .shop_card__content {
 	max-width: 343px;
 	border: 3px solid #d3c59d;
@@ -1204,11 +1220,18 @@ img {
 
 	.card__img {
 		margin-right: 0;
-		max-width: 100%;
+		max-width: 391px;
+
+		min-width: 207px;
+		min-height: 207px;
 	}
 
 	.card__img img {
 		width: 100%;
+	}
+
+	.card__img img::after {
+		min-width: 207px;
 	}
 
 	.card__desc {
@@ -1354,11 +1377,18 @@ img {
 
 	.card__img {
 		margin-right: 0;
-		max-width: 100%;
+		max-width: 330px;
+
+		min-width: 207px;
+		min-height: 207px;
 	}
 
 	.card__img img {
 		width: 100%;
+	}
+
+	.card__img img::after {
+		min-width: 0%;
 	}
 
 	.card__desc {
@@ -1448,5 +1478,11 @@ img {
 	.popup__body {
 		width: 91.7%;
 		padding: 25px 20px;
+	}
+}
+
+@media (max-width: 640px) and (orientation:landscape) {
+	.trend_card {
+		width: calc(50% - 2px);
 	}
 }
